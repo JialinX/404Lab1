@@ -6,3 +6,6 @@ print(requests.__version__)
 google = requests.get('http://www.google.com')
 print(google)
 
+#Modify your Python script so that it downloads itself from GitHub and prints out its own source code from GitHub.
+lab1 = requests.get('https://github.com/JialinX/404Lab1/blob/main/lab1.py')
+print(lab1.text)
